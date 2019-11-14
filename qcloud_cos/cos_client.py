@@ -166,7 +166,7 @@ class CosS3Client(object):
         else:
             self._session = session
 
-    def get_conf():
+    def get_conf(self):
         """获取配置"""
         return self._conf
 
